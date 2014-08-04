@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80528C6198FA1B0002F54D1 /* PTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80528C5198FA1B0002F54D1 /* PTViewController.xib */; };
 		B8F321E3198F98A7008E93CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F321E2198F98A7008E93CB /* Foundation.framework */; };
 		B8F321E5198F98A7008E93CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F321E4198F98A7008E93CB /* CoreGraphics.framework */; };
 		B8F321E7198F98A7008E93CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F321E6198F98A7008E93CB /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B80528C5198FA1B0002F54D1 /* PTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTViewController.xib; sourceTree = "<group>"; };
 		B8F321DF198F98A7008E93CB /* PeopleThoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleThoughts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F321E2198F98A7008E93CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8F321E4198F98A7008E93CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,6 +143,7 @@
 				B8F321F4198F98A8008E93CB /* Main.storyboard */,
 				B8F321F7198F98A9008E93CB /* PTViewController.h */,
 				B8F321F8198F98A9008E93CB /* PTViewController.m */,
+				B80528C5198FA1B0002F54D1 /* PTViewController.xib */,
 				B8F321FA198F98A9008E93CB /* Images.xcassets */,
 				B8F321E9198F98A7008E93CB /* Supporting Files */,
 			);
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80528C6198FA1B0002F54D1 /* PTViewController.xib in Resources */,
 				B8F321FB198F98A9008E93CB /* Images.xcassets in Resources */,
 				B8F321ED198F98A7008E93CB /* InfoPlist.strings in Resources */,
 				B8F321F6198F98A8008E93CB /* Main.storyboard in Resources */,
@@ -489,6 +493,7 @@
 				B8F32213198F98A9008E93CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8F32214198F98A9008E93CB /* Build configuration list for PBXNativeTarget "PeopleThoughtsTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				B8F32216198F98A9008E93CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

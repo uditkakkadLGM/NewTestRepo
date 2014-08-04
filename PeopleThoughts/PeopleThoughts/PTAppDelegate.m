@@ -7,7 +7,6 @@
 //
 
 #import "PTAppDelegate.h"
-#import <Parse/Parse.h>
 
 @implementation PTAppDelegate
 
@@ -16,11 +15,8 @@
     [Parse setApplicationId:@"RFWNtNOUzgdyfOOfSV87sNmnUPZ0KvqPvhXGXxWM"
                   clientKey:@"geZD2V4TwZ0EWCB5F82yoMxcNldtNFXyck3NOK2Z"];
     
-    [PFUser logInWithUsernameInBackground:@"uditkakkad" password:@"Tech8098" block:^(PFUser *user, NSError *error) {
-        if (user != nil) {
-            NSLog(@"login successful");
-        }
-    }];
+    self.ptViewController = [[PTViewController alloc] initWithNibName:@"PTViewController" bundle:nil];
+    self.window.rootViewController = self.ptViewController;
     // Override point for customization after application launch.
     return YES;
 }

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PTViewController.h"
 
 @interface PTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) PTViewController *ptViewController;
 
 @end
