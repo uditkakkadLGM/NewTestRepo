@@ -7,11 +7,20 @@
 //
 
 #import "PTAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation PTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Parse setApplicationId:@"RFWNtNOUzgdyfOOfSV87sNmnUPZ0KvqPvhXGXxWM"
+                  clientKey:@"geZD2V4TwZ0EWCB5F82yoMxcNldtNFXyck3NOK2Z"];
+    
+    [PFUser logInWithUsernameInBackground:@"uditkakkad" password:@"Tech8098" block:^(PFUser *user, NSError *error) {
+        if (user != nil) {
+            NSLog(@"login successful");
+        }
+    }];
     // Override point for customization after application launch.
     return YES;
 }

@@ -21,6 +21,12 @@
 		B8F32204198F98A9008E93CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F321E6198F98A7008E93CB /* UIKit.framework */; };
 		B8F3220C198F98A9008E93CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8F3220A198F98A9008E93CB /* InfoPlist.strings */; };
 		B8F3220E198F98A9008E93CB /* PeopleThoughtsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F3220D198F98A9008E93CB /* PeopleThoughtsTests.m */; };
+		B8F32218198F9A8F008E93CB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F32217198F9A8E008E93CB /* Parse.framework */; };
+		B8F3221A198F9BDD008E93CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F32219198F9BDD008E93CB /* SystemConfiguration.framework */; };
+		B8F3221C198F9BE4008E93CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F3221B198F9BE4008E93CB /* MobileCoreServices.framework */; };
+		B8F3221E198F9BFC008E93CB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F3221D198F9BFC008E93CB /* CFNetwork.framework */; };
+		B8F32220198F9C03008E93CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F3221F198F9C03008E93CB /* Security.framework */; };
+		B8F32222198F9C2C008E93CB /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F32221198F9C2C008E93CB /* libz.1.1.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		B8F32209198F98A9008E93CB /* PeopleThoughtsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeopleThoughtsTests-Info.plist"; sourceTree = "<group>"; };
 		B8F3220B198F98A9008E93CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8F3220D198F98A9008E93CB /* PeopleThoughtsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleThoughtsTests.m; sourceTree = "<group>"; };
+		B8F32217198F9A8E008E93CB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = PeopleThoughts/DependencyFrameworks/Parse.framework; sourceTree = "<group>"; };
+		B8F32219198F9BDD008E93CB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B8F3221B198F9BE4008E93CB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B8F3221D198F9BFC008E93CB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B8F3221F198F9C03008E93CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B8F32221198F9C2C008E93CB /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F32222198F9C2C008E93CB /* libz.1.1.3.dylib in Frameworks */,
+				B8F32220198F9C03008E93CB /* Security.framework in Frameworks */,
+				B8F3221E198F9BFC008E93CB /* CFNetwork.framework in Frameworks */,
+				B8F3221C198F9BE4008E93CB /* MobileCoreServices.framework in Frameworks */,
+				B8F3221A198F9BDD008E93CB /* SystemConfiguration.framework in Frameworks */,
+				B8F32218198F9A8F008E93CB /* Parse.framework in Frameworks */,
 				B8F321E5198F98A7008E93CB /* CoreGraphics.framework in Frameworks */,
 				B8F321E7198F98A7008E93CB /* UIKit.framework in Frameworks */,
 				B8F321E3198F98A7008E93CB /* Foundation.framework in Frameworks */,
@@ -101,6 +119,12 @@
 		B8F321E1198F98A7008E93CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8F32221198F9C2C008E93CB /* libz.1.1.3.dylib */,
+				B8F3221F198F9C03008E93CB /* Security.framework */,
+				B8F3221D198F9BFC008E93CB /* CFNetwork.framework */,
+				B8F3221B198F9BE4008E93CB /* MobileCoreServices.framework */,
+				B8F32219198F9BDD008E93CB /* SystemConfiguration.framework */,
+				B8F32217198F9A8E008E93CB /* Parse.framework */,
 				B8F321E2198F98A7008E93CB /* Foundation.framework */,
 				B8F321E4198F98A7008E93CB /* CoreGraphics.framework */,
 				B8F321E6198F98A7008E93CB /* UIKit.framework */,
@@ -377,6 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PeopleThoughts/DependencyFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PeopleThoughts/PeopleThoughts-Prefix.pch";
 				INFOPLIST_FILE = "PeopleThoughts/PeopleThoughts-Info.plist";
@@ -390,6 +418,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PeopleThoughts/DependencyFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PeopleThoughts/PeopleThoughts-Prefix.pch";
 				INFOPLIST_FILE = "PeopleThoughts/PeopleThoughts-Info.plist";
